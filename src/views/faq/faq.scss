@@ -1,0 +1,134 @@
+.faq-page {
+    background-size: cover;
+    background: url('./assets/faq_banner.png') top 177px right 13px no-repeat;
+
+    .faq-page-contain {
+        .main-banner {
+            > .row {
+                min-height: 343px;
+            }
+
+            .banner-title {
+                color: #333333;
+                font-family: Helvetica, serif;
+                font-size: 34px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+
+            .banner-desc {
+                .email-us {
+                    color: #49bc6b;
+                    font-family: Helvetica, serif;
+                    font-size: 32px;
+                    font-weight: 400;
+                    letter-spacing: -1.98px;
+                    line-height: 34px;
+                }
+                font-family: Helvetica, serif;
+                color: #5f5f5f;
+                font-size: 26px;
+                letter-spacing: -1.98px;
+            }
+        }
+
+        .faq-list {
+            li {
+                &:before {
+                    content: ' ';
+                    position: absolute;
+                    display: inline-block;
+                    top: 8px;
+                    left: 0;
+                    width: 6px;
+                    height: 6px;
+                    background: url('./assets/point.png') no-repeat;
+                    background-size: 6px 6px;
+                }
+                position: relative;
+                margin-top: 17px;
+                color: #5f5f5f;
+                font-family: Helvetica, serif;
+                font-size: 14px;
+                font-weight: 400;
+                padding-left: 17px;
+            }
+        }
+
+        .section-1 {
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
+
+        .section-2 {
+            &:first-child {
+                margin-top: 25px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 122px;
+            }
+            margin-top: 50px;
+            > .title {
+                color: #333333;
+                font-family: Helvetica, serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 17px;
+                text-transform: uppercase;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+.neg-accordion {
+    .panel-header {
+        cursor: pointer;
+    }
+
+    .card {
+        &.shown {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        padding: 0 18px;
+        border-radius: 0 !important;
+        .card-header {
+            &:before {
+                content: ' ';
+                position: absolute;
+                display: inline-block;
+                top: 20px;
+                left: 0;
+                width: 8px;
+                height: 9px;
+                background: url('./assets/point.png') no-repeat;
+                background-size: 8px;
+            }
+            position: relative;
+            padding-left: 26px;
+            border-radius: 0 !important;
+            background: none;
+            border-bottom: none;
+
+            color: #333333;
+            font-family: Helvetica, serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22px;
+            text-transform: uppercase;
+
+        }
+
+        .card-text {
+            color: #5f5f5f;
+            font-family: Helvetica, serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+
+}
+

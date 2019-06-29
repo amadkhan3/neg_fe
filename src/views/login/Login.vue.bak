@@ -1,0 +1,27 @@
+<template>
+    <div class="login container">
+        <div class="row justify-content-md-center">
+            <div class="col-4 text-left mt-4">
+                <form>
+                    <div class="form-group">
+                        <label for="userName">User Name</label>
+                        <input v-model="userName" type="text" class="form-control" id="userName"
+                               placeholder="Enter User Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input v-model="password" type="password" class="form-control" id="exampleInputPassword1"
+                               placeholder="Password"/>
+                    </div>
+                    <div class="form-group">
+                        <small id="error" class="form-text text-muted error">{{errorMsg}}</small>
+                    </div>
+                    <button type="button" class="btn btn-primary" @click="login">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</template>
+
+<script src="./Login.js"></script>

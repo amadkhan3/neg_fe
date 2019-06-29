@@ -1,0 +1,53 @@
+* {
+    font-family: Helvetica;
+}
+
+.retirement-saving-application-header {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    height: 175px;
+
+    @media screen and (max-width: 1024px) {
+
+        * {
+            font-size: 95%;
+        }
+
+        .header {
+            padding: 10px 10px 10px 10px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .header {
+            padding: 66px 190px 66px 190px;
+        }
+    }
+
+    .dongphuclop {
+        color: #333333;
+        font-size: 20px;
+    }
+
+    a.link-color {
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+        color: #49bc6b;
+    }
+
+    .active-indicator {
+        padding: 5px;
+        border-bottom: 3px solid #49bc6b;
+    }
+
+    .container-display-inline-right {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+    }
+}

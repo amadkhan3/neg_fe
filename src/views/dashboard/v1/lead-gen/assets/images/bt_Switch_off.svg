@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.131" height="24.834" viewBox="0 0 57.131 24.834">
+  <g id="bt_Switch_off" transform="translate(-1175 -136)">
+    <g id="Group_2481" data-name="Group 2481" transform="translate(10.297 13.726)">
+      <g id="Group_2524" data-name="Group 2524" transform="translate(-5)">
+        <rect id="Rectangle_576" data-name="Rectangle 576" width="57.131" height="24.834" rx="12.417" transform="translate(1169.703 122.274)" fill="#e1e1e1"/>
+        <ellipse id="Ellipse_48" data-name="Ellipse 48" cx="8" cy="8" rx="8" ry="8" transform="translate(1174.506 126.52)" fill="#a5a4a4"/>
+        <text id="OFF" transform="translate(1195.703 139.274)" fill="#a5a4a4" font-size="12" font-family="Helvetica" letter-spacing="-0.034em"><tspan x="0" y="0">OFF</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,143 @@
+.sampleCTAs {
+
+    .skin-blue.sidebar-mini {
+        width: 100%;
+    }
+
+    .powered_by {
+        padding: 10px 0 0;
+        margin: 0;
+    }
+
+    .powered_by span {
+        color: #49bc6b;
+    }
+
+    #app .navbar-nav > li.active {
+        background: #e8f2ec;
+    }
+
+    .sidebar-dark .nav-item.active .nav-link i,
+    .sidebar .nav-item.active .nav-link span {
+        color: #49bc6b;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 300;
+        padding: 5px 10px;
+    }
+
+    .tab_bar {
+        background: #ffffff;
+    }
+
+    .tab_bar .inner-list ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .tab_bar .inner-list ul li {
+        display: inline-block;
+        padding: 14px 50px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .tab_bar .inner-list ul li:hover,
+    .tab_bar .inner-list ul li.active {
+        border-bottom: 2px solid #49bc6b;
+    }
+
+    .tab_bar .inner-list ul li a {
+        color: #5f5f5f;
+        text-decoration: none !important;
+    }
+
+    //.inner-wrapper {
+    //    width: 100%;
+    //    box-sizing: border-box;
+    //    padding: 20px 25px;
+    //    font-family: Helvetica, serif;
+    //}
+
+    //.content-inner {
+    //    background: #fff;
+    //    border: 1px solid #e1e1e1;
+    //    border-radius: 5px;
+    //    padding: 20px 25px;
+    //    box-sizing: border-box;
+    //
+    //}
+
+
+    /*
+    Sample CTAs
+    */
+    .top-text p{
+        font-size: 15px;
+        color: #5f5f5f;
+        line-height: 1.67;
+        letter-spacing: normal;
+    }
+    .box{
+        border: 1px solid #e1e1e1;
+        text-align: center;
+        padding: 10px 12px;
+        border-radius: 6px;
+        margin: 0 0 10px;
+    }
+    .box-text{
+        background: #f66868;
+        font-size: 11px;
+        padding: 8px 10px 5px;
+        color: #fff;
+        border-radius: 30px;
+        margin: 0;
+        font-family: Helvetica, serif;
+    }
+    .narrow-rounded .box-text{
+        border-radius: 6px;
+    }
+    .red .box-text{
+        background: #f66868;
+    }
+    .btn-download{
+        border: 1px solid #56c57b;
+        padding: 3px 20px;
+        display: inline-block;
+        border-radius: 50px;
+        margin: 5px 0 0;
+    }
+    .box-area-wrap{
+        border: 1px solid #e1e1e1;
+        width: 100%;
+        overflow: hidden;
+        padding: 30px 15px;
+        margin: 35px 0;
+        border-radius: 5px;
+        height: 450px;
+        overflow-y: scroll;
+    }
+    .boxed-cover{
+        margin: 10px 0 30px;
+        padding: 0 5px;
+    }
+    .green .box-text{
+        background: #61b531;
+    }
+    .yellow .box-text{
+        background: #fbae17;
+    }
+    .box img{
+        width: 100%;
+    }
+    .box-row{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /*
+    End
+    */
+
+}
+
+

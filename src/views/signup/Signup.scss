@@ -1,0 +1,300 @@
+.singup-page {
+    #wrapper {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .signup {
+        overflow: hidden;
+    }
+
+    .col-md-6-custom-gray {
+        width: 60%;
+        float: left;
+    }
+
+    .login_main_logo h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .col-md-6-custom-empty {
+        background-color: transparent;
+        width: 30%;
+        float: right;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .custom_sign_fm h3 {
+        margin-bottom: 15px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .custom_frm_contral {
+        border: 1px solid #c7c7c7;
+        box-shadow: none;
+        height: 41px;
+        border-radius: 4px;
+    }
+
+    .custom_laBel label {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: #5f5f5f;
+        font-size: 16px;
+    }
+
+    .flt_left_custom {
+        float: left;
+    }
+
+    .flt_right_custom {
+        float: right;
+    }
+
+    .custm_btn {
+        cursor: pointer !important;
+        border: none;
+        border-radius: 30px;
+        padding: 4px 29px 4px 27px;
+        color: #fff;
+        font-size: 19px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        transition: 0.5s;
+        min-width: 110px;
+    }
+
+    .custm_btn_green {
+        background-color: #49bc6b;
+    }
+
+    .custm_btn_green:hover {
+        transition: 0.5s;
+        background-color: #9cd1a3;
+    }
+
+    .custm_btn_grey {
+        background-color: #aaaaaa;
+    }
+
+    .custm_btn_grey:hover {
+        background-color: #d5d5d5;
+    }
+
+    .custom_control_label {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: #5f5f5f;
+        font-size: 16px;
+    }
+
+    .flt_right_custom a {
+        color: #5f5f5f;
+    }
+
+    .problems_registering span {
+        font-size: 16px;
+        color: #5f5f5f;
+
+    }
+
+    .problems_registering span a {
+        text-decoration: none;
+        color: #49bc6b;
+    }
+
+    .problems_registering {
+        padding-top: 42px;
+    }
+
+    .eyes_icon {
+        top: 46px;
+        position: absolute;
+        right: 11px;
+        text-align: right;
+    }
+
+    .form-group.custom_laBel.margin_30 {
+        margin-bottom: 30px;
+    }
+
+    .back_e {
+        margin-right: 20px;
+        background-color: gray;
+    }
+
+    .eyes_icon img {
+        width: 25px;
+        float: right;
+    }
+
+    .custom_frm_check {
+        padding-left: 0;
+    }
+
+    .sign-notes {
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: -1px;
+        text-align: left;
+        color: #56c57b;
+    }
+
+    .sign-notes strong {
+        font-weight: 700;
+    }
+
+
+    .error-text {
+        font-family: Helvetica, serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: -1px;
+        text-align: left;
+        color: #f86565;
+    }
+
+
+    @media (min-width: 1024px) and (max-width: 1400px) {
+
+        .login_left_image img {
+            max-width: 100%;
+        }
+        .col-md-6-custom-gray {
+            width: 63%;
+
+        }
+        .custom_sign_fm h3 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        .eyes_icon {
+            //top: -29px;
+
+        }
+        .col-md-6-custom-empty {
+            width: 360px;
+
+        }
+
+        .custom_frm_check {
+            padding-left: 0;
+        }
+        .problems_registering span {
+            font-size: 12px;
+        }
+        .col-md-6-custom-gray {
+            width: 55%;
+        }
+        .col-md-6-custom-empty {
+            width: 35%;
+        }
+
+    }
+
+    @media (min-width: 767px) and (max-width: 1024px) {
+        .col-md-6-custom-gray {
+            width: 50%;
+        }
+        .login_left_image img {
+            max-width: 100%;
+        }
+        .col-md-6-custom-empty {
+            width: 40%;
+        }
+        .custom_sign_fm h3 {
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        .custom_frm_contral {
+            //height: 30px;
+        }
+        .custom_laBel label {
+            font-size: 14px;
+        }
+        .flt_right_custom a, .container_e {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .custm_btn {
+            margin-top: 20px;
+        }
+        .problems_registering span {
+            font-size: 13px;
+        }
+        .eyes_icon {
+            //top: -22px;
+        }
+        #wrapper {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .form-group.custom_laBel.margin_30 {
+            margin-bottom: 20px;
+        }
+        .custom_frm_check {
+            padding-left: 0;
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        #wrapper {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        /* For mobile phones: */
+        .col-md-6-custom-gray {
+            width: 100%;
+        }
+        .login_left_image img {
+            max-width: 100%;
+        }
+        .col-md-6-custom-empty {
+            width: 100%;
+            margin-left: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 40px;
+            padding-top: 40px;
+        }
+        .custom_sign_fm h3 {
+            margin-bottom: 30px;
+        }
+        .login_main_logo h1 {
+            text-align: center;
+        }
+        .problems_registering {
+            text-align: center;
+        }
+        .custom_frm_check {
+            text-align: center;
+        }
+
+    }
+
+
+}
+
+
+
+
+
+

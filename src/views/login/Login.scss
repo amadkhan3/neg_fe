@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+#wrapper {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.login {
+	overflow: hidden;
+}
+.login .form-check {
+	padding-left: 0;
+}
+.col-md-6-custom-gray {
+	width: 60%;
+	float: left;
+}
+.login_main_logo h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.col-md-6-custom-empty {
+	background-color: transparent;
+	width: 30%;
+	float: right;
+	margin-left: 0;
+}
+.clear{
+	clear: both;
+}
+.custom_sign_fm h3 {
+	margin-bottom: 100px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+.custom_frm_contral {
+	border: 1px solid #c7c7c7;
+	box-shadow: none;
+	height: 41px;
+	border-radius: 4px;
+}
+.custom_laBel label{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #5f5f5f;
+	font-size: 16px;
+}
+.form-group.custom_laBel {
+	margin-bottom: 30px;
+}
+.flt_left_custom{
+    float: left;
+    padding-left: 0;
+}
+.flt_right_custom{
+	float: right;
+}
+.custm_btn {
+	border: none;
+	padding-left: 27px;
+	padding-right: 29px;
+	border-radius: 30px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	color: #fff;
+	margin-top: 50px;
+	font-size: 19px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	transition: 0.5s;
+}
+.custm_btn_green {
+	background-color: #49bc6b;
+}
+.custm_btn_green:hover{
+	transition: 0.5s;
+	background-color: #9cd1a3;
+}
+.custm_btn_grey {
+	background-color: #aaaaaa;
+}
+.custm_btn_grey:hover {
+	background-color: #d5d5d5;
+}
+.custom_control_label {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #5f5f5f;
+	font-size: 16px;
+}
+.flt_right_custom a {
+    color: #5f5f5f;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+.eyes_icon img {
+	width: 25px;
+	float: right;
+}
+.eyes_icon {
+	top: 46px;
+	position: absolute;
+	right: 11px;
+	text-align: right;
+}
+
+
+
+/* The container */
+.container_e {
+	display: block;
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #5f5f5f;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container_e input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+
+  .checkmark {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	height: 19px;
+	width: 18px;
+	background-color: #eee;
+}
+
+  /* On mouse-over, add a grey background color */
+  .container_e:hover input ~ .checkmark {
+	background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container_e input:checked ~ .checkmark {
+	background-color: #49bc6b;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container_e input:checked ~ .checkmark:after {
+	display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container_e .checkmark::after {
+	left: 7px;
+	top: 4px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+	.login_left_image img {
+		max-width: 100%;
+	}
+    .eyes_icon{
+        //top: -29px;
+    }
+	.custom_sign_fm h3 {
+		margin-bottom: 40px;
+		font-size: 30px;
+	}
+}
+
+
+
+
+
+
+
+  @media (min-width: 767px) and (max-width: 1024px) {
+	.col-md-6-custom-gray {
+		width: 40%;
+	}
+	.login_left_image img {
+		max-width: 100%;
+	}
+	.custom_sign_fm h3 {
+		margin-bottom: 15px;
+		font-size: 24px;
+	}
+	.col-md-6-custom-empty {
+		width: 35%;
+		margin-right: 50px;
+	}
+	.custom_frm_contral {
+		//height: 30px;
+	}
+	.custom_laBel label {
+		font-size: 14px;
+	}
+	.flt_right_custom a,.container_e {
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.custm_btn {
+		margin-top: 20px;
+	}
+	.eyes_icon {
+		//top: -22px;
+	}
+	#wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+  }
+
+
+
+  @media only screen and (max-width: 767px) {
+	/* For mobile phones: */
+	#wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.col-md-6-custom-gray {
+		width: 100%;
+	}
+	.login_left_image img {
+		max-width: 100%;
+	}
+	.col-md-6-custom-empty {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	.custom_sign_fm h3 {
+		margin-bottom: 30px;
+	}
+	.login_main_logo h1 {
+		text-align: center;
+	}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

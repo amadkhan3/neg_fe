@@ -1,0 +1,402 @@
+.accounts {
+    .wrapper-content-inner {
+        width: 870px !important;
+    }
+    .accounts .content-inner {
+        padding: 20px 100px;
+    }
+
+    .round-img {
+        width: 72px;
+        border: 1px solid darkgray;
+        border-radius: 50%;
+        .img-profile {
+            width: 70px;
+        }
+    }
+
+
+    .small-font {
+        font-family: Helvetica, serif;
+        font-size: 14px !important;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.36;
+        text-align: left;
+        letter-spacing: -0.5px;
+        color: #333333 !important;
+    }
+
+    /*
+    Inner Welcome Content
+    */
+    .update_pass {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .update_pass h4 {
+        font-size: 14px;
+        color: #333333;
+        font-weight: 700;
+    }
+
+    .update_pass h4 span {
+        color: #49bc6b;
+    }
+
+    .update_pass label,
+    .new_pass h5 {
+        color: #333333;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .new_pass {
+        margin: 40px 0 20px;
+        position: relative;
+    }
+
+    .new_pass h5 i {
+        color: #a5a4a4;
+    }
+
+    .update_pass .form-group {
+        margin: 20px 0px 10px;
+    }
+
+    .notes {
+        color: #5f5f5f;
+        font-size: 13px;
+    }
+
+    .btn-change {
+        background: #49bc6b;
+        color: #fff;
+        text-decoration: none !important;
+        padding: 10px 15px;
+        border-radius: 52px;
+    }
+
+    .submit-wrap {
+        float: right;
+        margin: 40px 0 20px;
+    }
+
+    .pop_message {
+        border-radius: 4px;
+        box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.27);
+        background-color: #ffffff;
+        padding: 10px 10px;
+        position: absolute;
+        width: 350px;
+        top: 5px;
+        right: -150px;
+        display: none;
+    }
+
+    .pop_message p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .subs-date-area p {
+        color: #56c57b;
+        font-size: 12px;
+    }
+
+    .subs-date-area a {
+        color: #f86565;
+        font-weight: 800;
+    }
+
+    .welcome-content h2 {
+        font-family: Helvetica, Open Sans, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.21;
+        letter-spacing: -0.8px;
+        text-align: left;
+        color: #333333;
+        margin: 0 0 15px;
+    }
+
+    .welcome-content span,
+    .welcome-content p {
+        color: #5f5f5f;
+        font-size: 14px;
+    }
+
+    .welcome-content span {
+        color: #a5a4a4;
+    }
+
+    .welcome-content span strong {
+        color: #5f5f5f;
+    }
+
+    .checkbox-area {
+        margin: 20px 0 0;
+    }
+
+    .checkbox-area h4 {
+        font-family: Open sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.19;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #49bc6b;
+    }
+
+    .form-group {
+        position: relative;
+    }
+
+    .styled-checkbox {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .form-group .styled-checkbox {
+        position: absolute;
+        z-index: 99999999999;
+        left: 4px;
+        top: 8px;
+    }
+
+    .styled-checkbox + label {
+        position: relative;
+        cursor: pointer;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .styled-checkbox + label:before {
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        border: solid 1px #5f5f5f;
+        background-color: #ffffff;
+    }
+
+    .styled-checkbox:hover + label:before {
+        background: #49bc6b;
+    }
+
+    .styled-checkbox:focus + label:before {
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .styled-checkbox:checked + label:before {
+        background: #49bc6b;
+        color: #fff;
+    }
+
+    .styled-checkbox:disabled + label {
+        color: #b8b8b8;
+        cursor: auto;
+    }
+
+    .styled-checkbox:disabled + label:before {
+        box-shadow: none;
+        background: #ddd;
+    }
+
+    .styled-checkbox:checked + label:after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 11px;
+        background: white;
+        width: 3px;
+        height: 3px;
+        box-shadow: 2px 0 0 #fff, 4px 0 0 #fff, 4px -2px 0 #fff, 4px -4px 0 #fff, 4px -6px 0 #fff, 4px -8px 0 #fff;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .form-group label a {
+        color: #49bc6b;
+    }
+
+    .timeline-row {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 20px 0 30px;
+    }
+
+    .timeline-wrap {
+        position: relative;
+    }
+
+    .timeline-wrap:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #e1e1e1;
+    }
+
+    .outer-dot {
+        background: #e1e1e1;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 4.2%;
+        text-align: center;
+    }
+
+    .outer-dot:hover,
+    .outer-dot.active {
+        background: #49bc6b;
+    }
+
+    .outer-dot:first-child {
+        margin: 0;
+        margin-right: 2%;
+    }
+
+    .inner-dot {
+        width: 10px;
+        height: 10px;
+        background: #ffffff;
+        border-radius: 50px;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        margin-top: -7px;
+    }
+
+    .main-wrap {
+        background: #f2f5f7;
+        padding: 0;
+    }
+
+    .topbar.static-top {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .main-side-area {
+        border-right: 1px solid #e1e1e1;
+    }
+
+    .sidebar-brand {
+        padding: 19px 0;
+        border-bottom: 1px solid #e1e1e1;
+        margin: 0 0 10px;
+    }
+
+    .no-padding {
+        padding: 0;
+    }
+
+    .round-img {
+        width: 72px;
+        float: left;
+    }
+
+    .name-area {
+        float: left;
+        padding-left: 23px;
+        padding-top: 13px;
+    }
+
+    .name-area h4 {
+        color: #333333;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .name-area a {
+        font-size: 13px;
+        color: #49bc6b;
+    }
+
+    .form-group label {
+        color: #333333;
+        font-weight: 500;
+    }
+
+    .form-group label span {
+        color: #a5a4a4;
+        font-size: 12px;
+    }
+
+    .professional-area {
+        border: 1px solid #e1e1e1;
+        margin: 70px 15px 15px -26px;
+        overflow: hidden;
+        width: calc(100% + 52px);
+        display: block;
+        position: relative;
+        padding: 30px 26px;
+        border-radius: 4px;
+    }
+
+    .subs-date-area {
+        margin: 0 0 30px;
+    }
+
+    .profile-img-area {
+
+        margin: 41px 0 40px;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .bold-text {
+        font-family: Helvetica, serif;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.06;
+        text-align: left;
+        color: #333333;
+    }
+
+    .green-small-text {
+        font-family: Helvetica, serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.36;
+        text-align: left;
+        color: #49bc6b;
+    }
+
+    .form-group > label {
+        font-family: Helvetica, serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.75;
+        letter-spacing: -1px;
+        text-align: left;
+        color: #333333;
+
+        > span {
+            color: #a5a4a4;
+            font-size: 16px;
+        }
+    }
+}

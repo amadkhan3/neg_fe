@@ -1,0 +1,289 @@
+.welcome-area {
+    .timeline-active-1 {
+        position: relative;
+    }
+
+    .timeline-active-1:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 11%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    .timeline-active-2 {
+        position: relative;
+    }
+
+    .timeline-active-2:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 22%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    .timeline-active-3 {
+        position: relative;
+    }
+
+    .timeline-active-3:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 33%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    .timeline-active-4 {
+        position: relative;
+    }
+
+    .timeline-active-4:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 44%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    
+    .timeline-active-5 {
+        position: relative;
+    }
+
+    .timeline-active-5:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 55%;
+        height: 2px;
+        background: #49bc6b;
+    }
+    
+    .timeline-active-6 {
+        position: relative;
+    }
+
+    .timeline-active-6:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 66%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    .timeline-active-7 {
+        position: relative;
+    }
+
+    .timeline-active-7:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 77%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    .timeline-active-8 {
+        position: relative;
+    }
+
+    .timeline-active-8:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 88%;
+        height: 2px;
+        background: #49bc6b;
+    }
+
+    .timeline-active-9 {
+        position: relative;
+    }
+
+    .timeline-active-9:before {
+        content: " ";
+        top: 13px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #49bc6b;
+    }
+    .modal-content{
+        border: 0;
+        font-size: 14px;
+        line-height: 1.57;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #5f5f5f;
+        font-family: Helvetica, serif;
+        border-radius: 2px;
+    }
+    .modal-title{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #49bc6b;
+        margin: 15px 0 28px;
+        font-size: 18px;
+        font-family: Helvetica, serif;
+    }
+    .modal-ul{
+        padding-left: 18px;
+        font-size: 14px;
+        
+    }
+
+    .modal-ul li {
+        font-family: Helvetica, serif;
+        list-style: none;
+        line-height: 1.77;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #5f5f5f;
+    }
+
+    .modal-lg {
+        max-width: 974px;
+    }
+
+    .modal-ul li:before {
+        content:"· ";
+        font-size:74px;
+        vertical-align:middle;
+        line-height:22px;
+    }
+
+    .close-modal{
+        position: absolute;
+        right: 30px;
+        font-size: 24px;
+        top: 25px;
+        color: #5f5f5f7d;
+        font-weight: 300;
+    }
+    .welcome-content {
+        h2 {
+            font-family: Helvetica, serif;
+            color: #333333;
+            font-size: 24px;
+            letter-spacing: -0.82px;
+            line-height: 5px;
+            font-weight: 400;
+        }
+
+        > p {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: -0.5px;
+            text-align: left;
+            color: #5f5f5f;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        > span {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.88;
+            letter-spacing: -0.5px;
+            text-align: left;
+            color: #a5a4a4;
+
+            strong {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: -0.7px;
+                color: #5f5f5f;
+            }
+        }
+    }
+
+    .subs-date-area p {
+        color: #56c57b;
+        font-size: 18px;
+    }
+
+    .subs-date-area a {
+        color: #f86565;
+        font-weight: 800;
+    }
+
+    .no-padding{
+        padding: 0 10px;
+    }
+    .checkbox-area {
+        margin: 20px 0 0;
+    }
+
+    .checkbox-area h4 {
+        font-family: Open sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.19;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #49bc6b;
+    }
+
+    .end-dot.outer-dot {
+        position: absolute;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        top: 2px;
+    }
+    .end-dot.outer-dot.active{
+        top: 2px;
+    }
+    .checkbox-area {
+        h4 {
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.19;
+            //letter-spacing: -0.5px;
+            text-align: left;
+            color: #49bc6b;
+            margin-bottom: 25px;
+            margin-top: 28px;
+        }
+
+        label {
+            font-family: Helvetica, serif;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            text-align: left;
+            color: #5f5f5f;
+        }
+    }
+}

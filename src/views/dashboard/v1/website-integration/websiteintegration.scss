@@ -1,0 +1,92 @@
+.dashboard-area .inner-wrapper{
+    width: 100%;
+    padding: 25px 12px;
+    margin: 0 auto;
+    font-family: Helvetica, serif;
+    max-height: calc(100vh - 151px);
+    overflow: auto;
+}
+.dashboard-area div.content-inner.website-integration{
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+    max-height: 100%;
+    overflow: visible;
+}
+.website-integration {
+
+
+    .top-tagline {
+        color: #49bc6b;
+        font-family: Helvetica, serif;
+        line-height: 1.19;
+        letter-spacing: -0.5px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    p{
+        font-family: Helvetica, serif;
+        line-height: 22px;
+        letter-spacing: -0.5px;
+        font-size: 16px;
+        font-weight: normal;
+        color: #5f5f5f;
+    }
+    .top-tagline span {
+        color: #97b454;
+    }
+
+    .embed h2 {
+        font-family: Helvetica, serif;
+        color: #49bc6b;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: normal;
+        margin: 40px 0 20px;
+    }
+
+    .embed p {
+        font-family: Helvetica, serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.29;
+        letter-spacing: -0.5px;
+    }
+
+    .copy_code_area {
+        margin: 30px 0 10px;
+        overflow: hidden;
+    }
+
+    .copy_code_area p {
+        font-family: Helvetica, serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.29;
+        letter-spacing: -0.5px;
+    }
+
+    .copy_code_area .form-group {
+        position: relative;
+    }
+
+    .copy_code_area .form-control {
+        min-height: 120px;
+        font-family: Helvetica, serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.29;
+        letter-spacing: -0.5px;
+    }
+
+    .copy_code_area .btn-copy {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        border: 1px solid #49bc6b;
+        padding: 9px 15px;
+        border-radius: 50px;
+        color: #49bc6b;
+        background: transparent;
+    }
+}

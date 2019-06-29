@@ -1,0 +1,71 @@
+{
+    "name": "NewNeg",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve --mode local",
+        "serve_cal_apps": "PORT=4444 vue-cli-service serve --mode apps",
+        "build": "vue-cli-service build",
+        "build_staging": "vue-cli-service build --mode staging",
+        "build_apps": "vue-cli-service build --mode apps",
+        "build_pro": "vue-cli-service build --mode production",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@chenfengyuan/vue-number-input": "^1.1.1",
+        "@fortawesome/fontawesome-svg-core": "^1.2.15",
+        "@fortawesome/free-brands-svg-icons": "^5.7.2",
+        "@fortawesome/free-regular-svg-icons": "^5.7.2",
+        "@fortawesome/free-solid-svg-icons": "^5.7.2",
+        "@fortawesome/vue-fontawesome": "^0.1.5",
+        "axios": "^0.18.0",
+        "bootstrap-vue": "^2.0.0-rc.11",
+        "jquery": "^3.3.1",
+        "lodash": "^4.17.11",
+        "moment": "^2.24.0",
+        "qs": "^6.6.0",
+        "v-clipboard": "^2.2.2",
+        "vee-validate": "^2.2.0",
+        "vue": "^2.5.17",
+        "vue-apexcharts": "^1.3.0",
+        "vue-bus": "^1.2.0",
+        "vue-cookies": "^1.5.7",
+        "vue-image-crop-upload": "^2.5.0",
+        "vue-loading-overlay": "^3.2.0",
+        "vue-numeric": "^2.3.0",
+        "vue-router": "^3.0.1",
+        "vue-select": "^2.6.0",
+        "vue-slider-component": "^3.0.23",
+        "vue-swal": "^1.0.0",
+        "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.1.1",
+        "@vue/cli-plugin-eslint": "^3.1.5",
+        "@vue/cli-service": "^3.1.4",
+        "@vue/eslint-config-prettier": "^4.0.0",
+        "apexcharts": "^3.5.0",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.9.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-node": "^8.0.0",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "eslint-plugin-vue": "^5.0.0-0",
+        "lint-staged": "^7.2.2",
+        "node-sass": "^4.9.0",
+        "sass-loader": "^7.0.1",
+        "vue-template-compiler": "^2.5.17"
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}

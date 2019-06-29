@@ -1,0 +1,31 @@
+.loading-screen {
+    .loader {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 999;
+        overflow: show;
+        margin: auto;
+        background-color: #49bc6b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content-loader {
+        margin-bottom:50px;
+        font-size: 29px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.59;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+}
